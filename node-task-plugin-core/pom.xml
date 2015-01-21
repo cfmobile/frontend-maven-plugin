@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>frontend-plugins</artifactId>
-        <groupId>com.github.eirslett</groupId>
-        <version>0.0.21-SNAPSHOT</version>
+        <artifactId>node-task-plugins</artifactId>
+        <groupId>io.pivotal.pcfms</groupId>
+        <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>frontend-plugin-core</artifactId>
+    <artifactId>node-task-plugin-core</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>

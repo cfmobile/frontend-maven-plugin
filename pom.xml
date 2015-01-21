@@ -7,16 +7,16 @@
         <version>7</version>
     </parent>
 
-    <groupId>com.github.eirslett</groupId>
-    <artifactId>frontend-plugins</artifactId>
-    <version>0.0.21-SNAPSHOT</version>
+    <groupId>io.pivotal.pcfms</groupId>
+    <artifactId>node-task-plugins</artifactId>
+    <version>0.0.1</version>
     <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <name>Frontend Plugins</name>
+    <name>Node Task Plugins</name>
 
     <description>
         This Maven plugin lets you install Node/NPM locally
@@ -24,7 +24,7 @@
         run Grunt tasks, and/or run Karma tests.
     </description>
 
-    <url>https://github.com/eirslett/frontend-maven-plugin</url>
+    <url>https://github.com/cfmobile/frontend-maven-plugin</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -34,9 +34,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/eirslett/frontend-maven-plugin</url>
-        <connection>scm:git:https://github.com/eirslett/frontend-maven-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:eirslett/frontend-maven-plugin.git</developerConnection>
+        <url>https://github.com/cfmobile/frontend-maven-plugin</url>
+        <connection>scm:git:https://github.com/cfmobile/frontend-maven-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:cfmobile/frontend-maven-plugin.git</developerConnection>
     </scm>
 
     <developers>
@@ -45,11 +45,16 @@
             <name>Eirik Sletteberg</name>
             <email>eiriksletteberg@gmail.com</email>
         </developer>
+        <developer>
+            <id>fivetenwill-</id>
+            <name>Will Tran</name>
+            <email>wtran@pivotal.io</email>
+        </developer>
     </developers>
 
     <modules>
-        <module>frontend-plugin-core</module>
-        <module>frontend-maven-plugin</module>
+        <module>node-task-plugin-core</module>
+        <module>node-task-maven-plugin</module>
     </modules>
 
     <build>
